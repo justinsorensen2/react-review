@@ -5,6 +5,7 @@ import Page2 from './pages/Page2'
 import HomePage from './pages/HomePage'
 import NotFound from './pages/NotFound'
 import Counter from './components/Counter'
+import ImageSlider from './components/ImageSlider'
 
 const App = () => {
   return (
@@ -26,6 +27,8 @@ const App = () => {
         </nav>
       </header>
       <Counter />
+
+      <ImageSlider />
       <Switch>
         <Route exact path="/" component={HomePage}></Route>
         <Route exact path="/1" component={Page}></Route>
