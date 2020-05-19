@@ -4,6 +4,7 @@ import Page from './pages/Page'
 import Page2 from './pages/Page2'
 import HomePage from './pages/HomePage'
 import NotFound from './pages/NotFound'
+import Counter from './components/Counter'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           </ul>
         </nav>
       </header>
+      <Counter />
       <Switch>
         <Route exact path="/" component={HomePage}></Route>
         <Route exact path="/1" component={Page}></Route>
