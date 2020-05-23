@@ -1,6 +1,7 @@
 import React from 'react'
 import Counter from './components/Counter'
 import ImageSlider from './components/ImageSlider'
+import MyForm from './components/MyForm'
 
 class App extends React.Component {
   state = {
@@ -24,6 +25,7 @@ class App extends React.Component {
         >
           {buttonText}
         </button>
+        <MyForm />
       </>
     )
   }
